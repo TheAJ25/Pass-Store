@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  @media only screen and (max-width: 850px) {
+    font-size: 15px;
+  }
+}
+
+.navbar{
+  @media only screen and (max-width: 850px) {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.container{
+  @media only screen and (max-width: 850px) {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+  }
+}
+
+.smcontainer{
+  @media only screen and (max-width: 850px) {
+    width: 100%;
+  }
+}
+
+.master{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tables{
+  @media only screen and (max-width: 850px){
+    overflow: auto;
+  }
+}
+
