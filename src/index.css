@@ -39,10 +39,10 @@
   flex-direction: column;
   justify-content: center;
 }
-
+/* 
 .tables{
   @media only screen and (max-width: 850px){
     overflow: auto;
   }
-}
+} */
 

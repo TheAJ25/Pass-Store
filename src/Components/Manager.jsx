@@ -115,8 +115,7 @@ const Manager = () => {
         theme="light"
         transition="Bounce"
       />
-      ;
-      <ToastContainer />;
+      <ToastContainer />
       <div className="master mx-auto max-w-4xl py-4 text-black">
         <h1 className="text-center text-3xl ">Pass-Store</h1>
         <p className="text-center text-sm">Your Own Password Manager</p>
@@ -190,7 +189,7 @@ const Manager = () => {
             </div>
           )}
 
-          <div className="tables flex justify-center align-center mb-10">
+          <div className="tables mb-10">
             {passwordarray.length != 0 && (
               <table className="table-auto w-full border-2 border-violet-400 rounded-xl overflow-auto">
                 <thead className="bg-violet-300">
